@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header*/
+.header{
+    /*background-image: url(https://external-preview.redd.it/2zYaCvhR7GqahGrYQapasu9a9KZ_Bjr7ZbZdovw0WUA.png?auto=webp&s=de1be163cc7d6ba55762ea935cfd6176b38bb85c);*/
+    background-image: url(https://static.wikia.nocookie.net/swordartonline/images/d/da/Worldtree.png/revision/latest?cb=20140611114049);
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    height: 30vh;
+}   
+
+/*membuat 2 box*/
+.nav{
+    float: left;
+    width: 30%;
+    height: 65vh;
+    /* background-image: url(https://i.pinimg.com/originals/aa/2c/89/aa2c8974bdd6cffa8003d85d569ac1e9.png); */
+    background-color: rgb(225, 235, 243);
+    padding: 30px;
+    
+}
+
+/*style menu*/
+.nav-ul{
+    list-style-image: url(sword_icon-icons.com_69869.png);
+    padding: 0;
+}
+
+a:link{
+    color: rgb(144, 149, 231);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(114, 114, 224);
+    text-decoration: none;
+}
+
+a:hover{
+    color: silver;
+    text-decoration: none;
+}
+
+.article{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    /* background-image: url(https://i.pinimg.com/originals/aa/2c/89/aa2c8974bdd6cffa8003d85d569ac1e9.png); */
+    background-color: aliceblue;
+    height: 65vh;
+}
+
+.sao{
+    color: black;
+    padding: 10px;
+}
+
+.padd{
+    padding: 20px;
+}
+
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer{
+    background-image: url(https://static.wikia.nocookie.net/swordartonline/images/d/da/Worldtree.png/revision/latest?cb=20140611114049);
+    /* background-color: rgb(178, 202, 245); */
+    padding: 10px;
+    text-align: center;
+    color: azure;
+    height: 5vh;
+}
+
+@media (max-width: 600px){
+    nav, article{
+        width: 100%;
+        height: auto;
+    }
+}
