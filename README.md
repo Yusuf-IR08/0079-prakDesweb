@@ -23,8 +23,8 @@ Kampus  : Universitas Islam Balitar
 
 ## 🔗 Live Preview Tugas
 
-- Pertemuan 1 : [Replit]() - [Codepen]()
-- Pertemuan 2&3 : [Replit]() - [Codepen]()
-- Pertemuan 4 : [Replit]() - [Codepen]()
+- Pertemuan 1 : [Replit]()
+- Pertemuan 2&3 : [Replit]()
+- Pertemuan 4 : [Replit]()
 - Pertemuan 5 : [Replit]() 
 - Pertemuan 6 : [SourceCode_Modul]() - [Modul]()
